@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+   
+    display: inline-block;
+    
+}
+h1,h2,h3.h4,h5,h6,p,span,ul,a{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* common css end  */
+/* top_bar css start  */
+
+#top_bar{
+    background-color:#EBF0F0;
+}
+#top_bar a,p{
+    color: #252525;
+}
+/* navbar start  */
+#main_manu ul li a{
+    color: #1C1C1C;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .4s;
+}
+#main_manu ul li a:hover{
+    color: blue;
+}
+#main_manu .main_logo{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #F76262;
+}
+
+#main_manu .icons i{
+    font-size: 30px;
+    color: #252525;
+    margin-left: 20px;
+}
+#main_manu .icons a{
+    position: relative;
+}
+#main_manu .icons a p{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    right: -6px;
+    bottom: -20px;
+    color: #fff;
+    background-color: #F76262;
+    text-align: center;
+}
+
+/* bannar part  */
+#bannar_prt_1 .baar{
+
+    height: 45px;
+   
+    text-align: center;
+    background-color: #4D77DD;
+}
+#bannar_prt_1{
+    margin-top: 35px;
+    margin-bottom: 12px;
+}
+#bannar_prt_1 .baar p{
+   font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF; 
+    line-height: 45px;
+}
+#bannar_prt_1 .baar p i{
+    padding: 0 18px;
+}
+#bannar_prt_1 form{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#bannar_prt_1 a{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #252525;
+    text-decoration: none;
+}
+
+#bannar_prt_1 form button{
+    background-color: #4D77DD;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* bannar part end */
+/* bannar part_2  */
+#bannar_part_2{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#bannar_part_2 .banner_bg{
+    background: url(../images/bannar.png) no-repeat center;
+    background-size: cover;
+    padding: 136px 0 136px 50px;
+}
+#bannar_part_2 .banner_bg h2{
+    font-size: 26px;
+    font-weight: 500px;
+    color: #F76262;
+}
+#bannar_part_2 .banner_bg h1{
+    font-size: 44px;
+    font-weight: 400px;
+    width: 308px;
+    color: #000000;
+}
+#bannar_part_2 .banner_bg p{
+    font-size: 28px;
+    font-weight: 500px;
+    color: #252525;
+}
+#bannar_part_2 .banner_bg p span{
+    color: #0036C0;
+}
+#bannar_part_2 .banner_bg button {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 9px 15px;
+    background-color: #F76262;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+}
+#bannar_part_2 .banner_bg button:hover{
+    background-color: #0036C0;
+}
+/* bannar part_2 end  */
+/* bannar part_3 start  */
+
+#bannar_part_3{
+    margin-top: 20px;
+   
+}
+#bannar_part_3 .items{
+    position: relative;
+    padding-left: 40px;
+}
+#bannar_part_3 .items img{
+position: absolute;
+left: 0;
+top: 8px;
+width: 20px;
+height: 20px;
+}
+#bannar_part_3 .items h3{
+    font-size: 22px;
+font-weight: 500;
+color: #222222;
+}
+#bannar_part_3 .items p{
+    font-size: 16px;
+    font-weight: 500;
+     color: #222222;
+}
+/* bannar part_3 end  */
+
+/* google extraordinary start */
+#gogle_exrtra{
+    margin-top: 30px;
+}
+#gogle_exrtra .pic{
+    position: relative;
+}
+#gogle_exrtra .pic_1 {
+    position: absolute;
+    top: 97px;
+    left: 50px;
+}
+#gogle_exrtra .pic_1 h2{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400px;
+    color: #111111;
+}
+#gogle_exrtra .pic_1 h1{
+   
+    
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700px;
+    color: #111111;
+}
+#gogle_exrtra .pic_1 p{
+    
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: #252525;
+   
+}
+ /* today start  */
+
+ #today{
+    margin-top: 20px;
+    margin-bottom: 25px;
+ }
+ #today h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+ }
+ #today h5{
+    font-size: 18px;
+ }
+ #today a{
+    background-color:#F76262 ;
+    border: none;
+    transition: .4s;
+    color: #000000;
+ }
+ #today a:hover{
+    background-color: #0036C0;
+    color: #fff;
+ }
+ #today p del{
+    color: #8F8F8F;
+ }
+
+/* today end   */
+/* write start  */
+#write{
+    margin-top: 30px;
+}
+
+
+/* write end */
+
+/* background start  */
+
+#background{
+    background: url(../images/Subtract.png) no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+
+#background button{
+ background-color: #4D77DD;
+ color: #fff;
+}
+#background .icon i{
+padding-left: 15px;
+padding-top: 10px;
+}
+/* background end */
+
+#footer_part{
+    margin-top: 30px;
+    
+}
+#footer_part .main{
+    display:flex ;
+    justify-content: space-between;
+   
+}
+#footer_part .main .footer_1 ul{
+    padding: 0;
+}
+#footer_part .main .footer_1 ul li a{
+    text-decoration: none;
+    color: #4A4A4A;
+}
+#footer_part .main .footer_1 ul li a i{
+    padding-right: 10px;
+    color: #4A4A4A;
+}
+#footer_part .main .footer_1 ul li a img{
+   padding-top: 10px;
+}
+/* downbar start  */
+#down_bar{
+    background-color: #EBF0F0;
+}
+#down_bar .row p{
+    padding-left: 15px;
+}
+#down_bar .row p img{
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
